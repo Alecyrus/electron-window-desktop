@@ -25,7 +25,7 @@ platform:
   - x64
 
 install:
-  - pip install cpplint
+#   - pip install cpplint
   - ps: Install-Product node $env:nodejs_version x64
   - npm install
 
@@ -34,7 +34,7 @@ build: off
 test_script:
   - node --version
   - npm --version
-  - cmd: npm run lint
+#   - cmd: npm run lint
 
 deploy_script:
   - scripts\prebuild-publish.bat %nodejs_version%
