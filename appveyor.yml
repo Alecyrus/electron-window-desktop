@@ -12,7 +12,7 @@ cache:
 
 environment:
   GITHUB_TOKEN:
-    secure: f+0cd8hOyzzcyBfUzfAudD5r9BYd7SbCLQSO+HPgRs76El3EO2+GkOxaxbd5U07/
+    secure: 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
 
   matrix:
     - nodejs_version: 10
