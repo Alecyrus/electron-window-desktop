@@ -26,7 +26,7 @@
     "install": "prebuild-install || node-gyp rebuild",
     "prebuild-release": "prebuild --all --strip"
   },
-  "author": "Robin Andersson <me@robinwassen.com>",
+  "author": "Alecyrus <alecyrus@163.com>",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=4"
